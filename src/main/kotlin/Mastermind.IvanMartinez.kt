@@ -1,8 +1,7 @@
-/*
-* AUTHOR: Iván Martínez Cañero
-* DATE: 2022/11/06
-* TITLE: Wordle
-*/
+/**
+* @author: Iván Martínez Cañero
+* @version: 1.0 - 2022/11/15
+ */
 import java.util.*
 
 /**
@@ -29,7 +28,6 @@ const val blue = "\u001b[38;5;69m"
  * This function will explain the user the instructions of the game
  * - Will ask the user to type "START" to begin the game
  */
-
 fun instructions(){
     val scanner = Scanner(System.`in`).useLocale(Locale.UK)
     do {
